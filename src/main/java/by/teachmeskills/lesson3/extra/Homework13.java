@@ -12,7 +12,7 @@ public class Homework13 {
         int numberOfMonth = scanner.nextInt();
 
         for (int i = 0; i < numberOfMonth; i++) {
-            deposit = deposit + deposit * (float) 0.07;
+            deposit = deposit + deposit * 0.07f;
         }
         System.out.println("Your final amount is " + deposit);
     }

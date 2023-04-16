@@ -7,8 +7,7 @@ public class Homework3 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number");
         int number = scanner.nextInt();
-        int a = number % 2;
-        if (a == 0) {
+        if (number % 2 == 0) {
             System.out.println("The number is even");
         } else {
             System.out.println("The number is odd");
