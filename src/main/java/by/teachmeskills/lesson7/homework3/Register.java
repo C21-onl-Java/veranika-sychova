@@ -12,14 +12,12 @@ public class Register implements RegisterInterface {
     }
 
     @Override
-    public boolean saveDocument(Document document) {
+    public void saveDocument(Document document) {
         for (int i = 0; i < documents.length; i++) {
             if (documents[i] == null) {
                 documents[i] = document;
-                return true;
             }
         }
-        return false;
     }
 
 
