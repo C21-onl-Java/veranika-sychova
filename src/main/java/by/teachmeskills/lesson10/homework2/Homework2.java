@@ -5,8 +5,8 @@ public class Homework2 {
 
         String strings = "This is a arbitrary length string with arbitrary words.";
 
-        ThisIsString.theLongestWord(strings);
+        ThisIsString.printLongestWord(strings);
 
-        ThisIsString.theShortestWord(strings);
+        ThisIsString.printShortestWord(strings);
     }
 }

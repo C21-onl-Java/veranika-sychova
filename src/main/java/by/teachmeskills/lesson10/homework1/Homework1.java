@@ -7,16 +7,16 @@ public class Homework1 {
 
         StringHandler.extractTwoNumberBlocks(strings);
 
-        StringHandler.replacingWithSymbol(strings);
+        StringHandler.printWithMaskedLetters(strings);
 
-        StringHandler.onlyLetters(strings);
+        StringHandler.printOnlyLetters(strings);
 
         StringHandler.showLetters(strings);
 
-        StringHandler.findAbc(strings);
+        StringHandler.printIfContainsAbc(strings);
 
-        StringHandler.ifStartWith555(strings);
+        StringHandler.printIfStartWith555(strings);
 
-        StringHandler.ifEndWith1a2b(strings);
+        StringHandler.printIfEndWith1a2b(strings);
     }
 }
