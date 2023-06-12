@@ -18,19 +18,19 @@ public class Homework1 {
 //        StringHandler.showLetters(strings);
 //
         try {
-            StringHandler.findAbc(strings);
+            StringHandler.printIfContainsAbc(strings);
         } catch (NoABCSequenceException e) {
             System.err.println(e.getMessage());
         }
 
         try {
-            StringHandler.ifStartWith555(strings);
+            StringHandler.printIfStartWith555(strings);
         } catch (DoesNotStartWith555 e) {
             System.err.println(e.getMessage());
         }
 
         try {
-            StringHandler.ifEndWith1a2b(strings);
+            StringHandler.printIfEndWith1a2b(strings);
         } catch (DoesNotEndWith1a2b e){
             System.err.println(e.getMessage());
         }

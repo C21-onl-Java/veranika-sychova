@@ -40,7 +40,7 @@ public class StringHandler {
 //        System.out.println(builder);
 //    }
 
-    public static void findAbc (String input) throws NoABCSequenceException {
+    public static void printIfContainsAbc(String input) throws NoABCSequenceException {
         String abc = "aBc";
         if (! input.toUpperCase().contains(abc.toUpperCase())){
             throw new NoABCSequenceException("There is no abc");
@@ -48,14 +48,14 @@ public class StringHandler {
         System.out.println(true);
     }
 
-    public static void ifStartWith555(String input) throws DoesNotStartWith555{
+    public static void printIfStartWith555(String input) throws DoesNotStartWith555{
         if (!input.startsWith("555")){
             throw new DoesNotStartWith555("Document doesn't start with 555");
         }
         System.out.println(true);
     }
 
-    public static void ifEndWith1a2b(String input) throws DoesNotEndWith1a2b {
+    public static void printIfEndWith1a2b(String input) throws DoesNotEndWith1a2b {
         if (! input.endsWith("1a2b")){
             throw new DoesNotEndWith1a2b("The document number ends with the sequence 1a2b: " + input.endsWith("1a2b"));
         }
